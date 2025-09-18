@@ -12,7 +12,9 @@ int main() {
 
         
         if (ABC == A*A*A + B*B*B + C*C*C) {
-            cout << ABC << " is an Armstrong number." << endl;
+            cout << ABC << ", ";
         }
     }
+    cout << endl;
+    return 0;
 }
